@@ -13,7 +13,8 @@
             "Anisa"
         ],
         "tech": [
-            "PHP"
+            "PHP",
+            "MySQL"
         ],
         "link": "https://glowpay.site/",
         "logo": "https://picsum.photos/seed/project1/80/80"
@@ -28,7 +29,8 @@
             "Akbar"
         ],
         "tech": [
-            "PHP"
+            "PHP",
+            "MySQL"
         ],
         "link": "https://absensi-online-tkj.wuaze.com/ProyekAbsensi/",
         "logo": "https://picsum.photos/seed/project2/80/80"
@@ -41,7 +43,10 @@
         "members": [
             "Galang",
             "Daffa",
-            "Amelia"
+            "Amelia",
+            "Thalita",
+            "Syifa",
+            "Alfi"
         ],
         "tech": [
             "React Router",
