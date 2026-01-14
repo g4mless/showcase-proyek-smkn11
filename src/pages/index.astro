@@ -1,16 +1,63 @@
 ---
-
+import projects from "../data/projects.json";
+import "../styles/main.css";
 ---
 
-<html lang="en">
+<!doctype html>
+<html lang="id">
 	<head>
 		<meta charset="utf-8" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
+		<title>Proyek Kelompok</title>
 	</head>
 	<body>
-		<h1>Astro</h1>
+		<div class="container">
+			<div class="projects-grid">
+				{
+					projects.map((project) => (
+						<article class="project-card">
+							<div class="project-header">
+								<img
+									src={project.logo}
+									alt={`${project.name} logo`}
+									class="project-logo"
+								/>
+								<div class="project-info">
+									<div class="project-name">
+										{project.name}
+									</div>
+									<h2 class="project-title">
+										{project.title}
+									</h2>
+								</div>
+							</div>
+
+							<p class="project-description">
+								{project.description}
+							</p>
+
+							<div class="project-members">
+								<div class="members-label">Anggota:</div>
+								<div class="members-list">
+									{project.members.join(", ")}
+								</div>
+							</div>
+
+							<div class="tech-stack">
+								{project.tech.map((tech) => (
+									<span class="tech-tag">{tech}</span>
+								))}
+							</div>
+
+							<a href={project.link} class="project-link">
+								Buka →
+							</a>
+						</article>
+					))
+				}
+			</div>
+		</div>
 	</body>
 </html>

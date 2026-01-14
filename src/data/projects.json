@@ -1,0 +1,53 @@
+[
+    {
+        "id": 1,
+        "name": "Kelompok Dafa (TKJ 1)",
+        "title": "Glowpay",
+        "description": "Online shop produk digital",
+        "members": [
+            "Daffa",
+            "Harlan",
+            "Ayunda",
+            "Alya",
+            "Unayah",
+            "Anisa"
+        ],
+        "tech": [
+            "PHP"
+        ],
+        "link": "https://glowpay.site/",
+        "logo": "https://picsum.photos/seed/project1/80/80"
+    },
+    {
+        "id": 2,
+        "name": "Kelompok Siraj (TKJ 1)",
+        "title": "Sistem Absensi Sekolah",
+        "description": "Sistem absensi berbasis foto & GPS",
+        "members": [
+            "Siraj",
+            "Akbar"
+        ],
+        "tech": [
+            "PHP"
+        ],
+        "link": "https://absensi-online-tkj.wuaze.com/ProyekAbsensi/",
+        "logo": "https://picsum.photos/seed/project2/80/80"
+    },
+    {
+        "id": 3,
+        "name": "Kelompok 2 (TKJ 2)",
+        "title": "Absensi QR Code",
+        "description": "Sistem absensi berbasis QR code",
+        "members": [
+            "Galang",
+            "Daffa",
+            "Amelia"
+        ],
+        "tech": [
+            "React Router",
+            "Supabase"
+        ],
+        "link": "https://mykelas-web.vercel.app",
+        "logo": "https://picsum.photos/seed/project3/80/80"
+    }
+]
