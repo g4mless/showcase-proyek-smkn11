@@ -61,12 +61,7 @@
         "title": "Perpustakaan SMKN 11",
         "description": "Sistem peminjaman buku perpustakaan",
         "members": [
-            "Galang",
-            "Daffa",
-            "Amelia",
-            "Thalita",
-            "Syifa",
-            "Alfi"
+            "Arul"
         ],
         "tech": [
             "React Router",
