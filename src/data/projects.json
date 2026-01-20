@@ -54,5 +54,25 @@
         ],
         "link": "https://mykelas-web.vercel.app",
         "logo": "https://picsum.photos/seed/project3/80/80"
+    },
+    {
+        "id": 4,
+        "name": "Kelompok 5 (TKJ 2)",
+        "title": "Perpustakaan SMKN 11",
+        "description": "Sistem peminjaman buku perpustakaan",
+        "members": [
+            "Galang",
+            "Daffa",
+            "Amelia",
+            "Thalita",
+            "Syifa",
+            "Alfi"
+        ],
+        "tech": [
+            "React Router",
+            "Supabase"
+        ],
+        "link": "https://perpustakaan-smk11.pages.dev",
+        "logo": "https://picsum.photos/seed/project3/80/80"
     }
 ]
